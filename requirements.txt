@@ -1,5 +1,12 @@
-numpy==2.4.1
-pandas==3.0.0
-python-dateutil==2.9.0.post0
-six==1.17.0
-tzdata==2025.3
+tensorflow
+keras
+opencv-contrib-python
+numpy
+pandas
+h5py
+flask
+Pillow
+tqdm
+jupyter
+notebook
+scikit-learn

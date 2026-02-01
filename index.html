@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viewer Emotion Detection</title>
+    <style>
+        body { text-align: center; font-family: Arial; }
+        img { max-width: 500px; border: 3px solid black; }
+        button { padding: 10px 20px; margin: 10px; }
+        h2 { color: darkred; }
+    </style>
+</head>
+<body>
+
+<h1>Viewer Emotion Detection</h1>
+
+<h2 id="emotion">Emotion: waiting...</h2>
+
+<img id="image" src="/static/images/{{ images[0] }}">
+
+<br>
+<button onclick="prev()">Previous</button>
+<button onclick="next()">Next</button>
+
+<br><br>
+<button onclick="start()">Start Detection</button>
+<button onclick="stop()">Stop Detection</button>
+
+<script>
+    const images = {{ images | tojson }};
+    let index = 0;
+
+    function updateImage() {
+        document.getElementById("image").src =
+            "/static/images/" + images[index];
+    }
+
+    function prev() {
+        if (index > 0) {
+            index--;
+            updateImage();
+        }
+    }
+
+    function next() {
+        if (index < images.length - 1) {
+            index++;
+            updateImage();
+        }
+    }
+
+    function start() {
+        fetch("/start");
+    }
+
+    function stop() {
+        fetch("/stop");
+    }
+
+    // Auto-update emotion every second
+    setInterval(() => {
+        fetch("/emotion")
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById("emotion").innerText =
+                    "Emotion: " + data.emotion;
+            });
+    }, 1000);
+</script>
+
+</body>
+</html>
