@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "session_id": "session_1776450284",
+        "total_duration_seconds": 60.82,
+        "total_images_interacted": 4,
+        "total_blinks": 13
+    },
+    "interactions": [
+        {
+            "image": "image1.png",
+            "target_emotion": "happy",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.81,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450284', the participant viewed the image 'image1.png' located in the 'UP-RIGHT' screen quadrant. They spent 60.81 seconds looking at it. The target emotion to copy was 'happy'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        },
+        {
+            "image": "image19.jpeg",
+            "target_emotion": "sad",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.81,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450284', the participant viewed the image 'image19.jpeg' located in the 'UP-RIGHT' screen quadrant. They spent 60.81 seconds looking at it. The target emotion to copy was 'sad'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        },
+        {
+            "image": "image2.png",
+            "target_emotion": "angry",
+            "user_emotion": "happy",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.81,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450284', the participant viewed the image 'image2.png' located in the 'UP-RIGHT' screen quadrant. They spent 60.81 seconds looking at it. The target emotion to copy was 'angry'. The user's exhibited facial expression was 'happy', which did not match the target emotion."
+        },
+        {
+            "image": "image20.jpeg",
+            "target_emotion": "surprise",
+            "user_emotion": "happy",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.81,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450284', the participant viewed the image 'image20.jpeg' located in the 'UP-RIGHT' screen quadrant. They spent 60.81 seconds looking at it. The target emotion to copy was 'surprise'. The user's exhibited facial expression was 'happy', which did not match the target emotion."
+        }
+    ],
+    "rag_analysis": {
+        "answer": "The user interacted with 4 image(s) and matched the target emotion in 0 case(s), with 4 mismatch(es). The most frequent gaze region recorded was UP-RIGHT, and the session logged 13 blink(s).",
+        "source": "fallback",
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    }
+}

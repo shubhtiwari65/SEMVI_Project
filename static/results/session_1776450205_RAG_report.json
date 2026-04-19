@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "session_id": "session_1776450205",
+        "total_duration_seconds": 67.09,
+        "total_images_interacted": 4,
+        "total_blinks": 18
+    },
+    "interactions": [
+        {
+            "image": "image1.png",
+            "target_emotion": "happy",
+            "user_emotion": "happy",
+            "matched": true,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 67.09,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450205', the participant viewed the image 'image1.png' located in the 'UP-RIGHT' screen quadrant. They spent 67.09 seconds looking at it. The target emotion to copy was 'happy'. The user's exhibited facial expression was 'happy', which successfully matched the target emotion."
+        },
+        {
+            "image": "image19.jpeg",
+            "target_emotion": "sad",
+            "user_emotion": "happy",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 67.09,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450205', the participant viewed the image 'image19.jpeg' located in the 'UP-RIGHT' screen quadrant. They spent 67.09 seconds looking at it. The target emotion to copy was 'sad'. The user's exhibited facial expression was 'happy', which did not match the target emotion."
+        },
+        {
+            "image": "image2.png",
+            "target_emotion": "angry",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 67.09,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450205', the participant viewed the image 'image2.png' located in the 'UP-RIGHT' screen quadrant. They spent 67.09 seconds looking at it. The target emotion to copy was 'angry'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        },
+        {
+            "image": "image20.jpeg",
+            "target_emotion": "surprise",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 67.09,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776450205', the participant viewed the image 'image20.jpeg' located in the 'UP-RIGHT' screen quadrant. They spent 67.09 seconds looking at it. The target emotion to copy was 'surprise'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        }
+    ],
+    "rag_analysis": {
+        "answer": "The user exhibited a highly consistent attention pattern, fixating solely on the UP-RIGHT region for all four images; however, the identical 67.09s duration logged for each image is unusual. Emotional matching quality was poor, with only one out of four target emotions (happy) correctly identified. For other target emotions like sad, angry, and surprise, the user frequently reported \"happy\" or \"neutral,\" indicating difficulty in discerning varied expressions. Despite the poor matching, the user's blink rate of approximately 16.1 blinks per minute (18 blinks in 67.09 seconds) falls within the normal range for adults. This suggests no abnormal levels of cognitive load or disengagement were evident from blink behavior alone.",
+        "source": "gemini",
+        "error": null
+    }
+}

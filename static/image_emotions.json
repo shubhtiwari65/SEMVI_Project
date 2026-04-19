@@ -1,0 +1,20 @@
+{
+    "angry": [
+        "image2.png","a5.jpeg"
+    ],
+    "fear": [
+        "image4.png"
+    ],
+    "happy": [
+        "image1.png","h6.jpeg"
+    ],
+    "neutral": [
+        "image3.png","n1.jpeg"
+    ],
+    "sad": [
+        "image19.jpeg","s4.jpeg","s5.jpeg"
+    ],
+    "surprise": [
+        "image20.jpeg","su4.jpeg"
+    ]
+}

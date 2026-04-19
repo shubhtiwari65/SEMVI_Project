@@ -1,0 +1,45 @@
+{
+    "session_id": "session_1776103896",
+    "duration": 138.11,
+    "total_blinks": 19,
+    "num_images": 6,
+    "pages": 1,
+    "images": [
+        {
+            "name": "image1.png",
+            "time_spent": 0.0,
+            "dominant_emotion": "neutral",
+            "fixation_count": 0
+        },
+        {
+            "name": "image19.jpeg",
+            "time_spent": 0.0,
+            "dominant_emotion": "neutral",
+            "fixation_count": 0
+        },
+        {
+            "name": "image2.png",
+            "time_spent": 0.0,
+            "dominant_emotion": "neutral",
+            "fixation_count": 0
+        },
+        {
+            "name": "image20.jpeg",
+            "time_spent": 0.0,
+            "dominant_emotion": "neutral",
+            "fixation_count": 0
+        },
+        {
+            "name": "image3.png",
+            "time_spent": 0.0,
+            "dominant_emotion": "neutral",
+            "fixation_count": 0
+        },
+        {
+            "name": "image4.png",
+            "time_spent": 0.0,
+            "dominant_emotion": "neutral",
+            "fixation_count": 0
+        }
+    ]
+}

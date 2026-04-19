@@ -1,0 +1,64 @@
+{
+    "metadata": {
+        "session_id": "session_1776531939",
+        "total_duration_seconds": 60.4,
+        "total_images_interacted": 4,
+        "total_blinks": 3
+    },
+    "interactions": [
+        {
+            "image": "a5.jpeg",
+            "target_emotion": "angry",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.4,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776531939', the participant viewed the image 'a5.jpeg' located in the 'UP-RIGHT' screen quadrant. They spent 60.40 seconds looking at it. The target emotion to copy was 'angry'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        },
+        {
+            "image": "h6.jpeg",
+            "target_emotion": "happy",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.4,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776531939', the participant viewed the image 'h6.jpeg' located in the 'UP-RIGHT' screen quadrant. They spent 60.40 seconds looking at it. The target emotion to copy was 'happy'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        },
+        {
+            "image": "image1.png",
+            "target_emotion": "happy",
+            "user_emotion": "happy",
+            "matched": true,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.4,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776531939', the participant viewed the image 'image1.png' located in the 'UP-RIGHT' screen quadrant. They spent 60.40 seconds looking at it. The target emotion to copy was 'happy'. The user's exhibited facial expression was 'happy', which successfully matched the target emotion."
+        },
+        {
+            "image": "image19.jpeg",
+            "target_emotion": "sad",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "UP-RIGHT",
+            "duration_seconds": 60.4,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776531939', the participant viewed the image 'image19.jpeg' located in the 'UP-RIGHT' screen quadrant. They spent 60.40 seconds looking at it. The target emotion to copy was 'sad'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        }
+    ],
+    "rag_analysis": {
+        "answer": "Hi there! Thanks for completing your copy-emotion session. Let's dive into your personalized feedback.\n\nIt's clear you approached the session with remarkable focus! The data shows you maintained intense attention on each of the four images presented. Your gaze was also incredibly consistent throughout the session, frequently directed towards the UP-RIGHT area of the screen. This suggests a very steady and focused engagement with the task.\n\nWhen it came to matching the target emotions, the session proved to be a bit challenging, with a 25% match rate (one correct match out of four). It was interesting to see that while you successfully mirrored a 'happy' expression in one instance, your detected emotion was often 'neutral' for other target emotions like 'angry' and 'sad'. This suggests that expressing a wider range of emotions might be an area to explore.\n\nYour blink count was quite low, with only 3 blinks recorded during the 60-second session. This often indicates deep concentration and sustained focus, which aligns well with your steady gaze behavior. Given the short duration of the session, it seems you were very much absorbed in the task at hand.\n\nThe most important takeaway from this session is to consciously experiment with expressing a broader spectrum of emotions. For your next session, we suggest actively trying to *exaggerate* your facial expressions a little more when prompted with different emotions (like sad or angry). Sometimes, even a slight change in expression can make a big difference in how emotions are detected. Keep up the great focus, and we look forward to seeing your progress!",
+        "source": "gemini",
+        "error": null,
+        "questions_used": [
+            "Which images held the user's attention the longest, and what does that suggest about focus?",
+            "How consistent was the user's gaze behavior across the session?",
+            "How well did the user's facial emotion match the target emotion overall?",
+            "Were there any repeated mismatch patterns between target emotion and detected emotion?",
+            "What does the blink count suggest about comfort, effort, or fatigue during the session?",
+            "What is the most important takeaway from this session for the user?",
+            "What is one practical suggestion that could improve the next session?"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "session_id": "session_1776446349",
+        "total_duration_seconds": 69.87,
+        "total_images_interacted": 4
+    },
+    "interactions": [
+        {
+            "image": "image1.png",
+            "target_emotion": "unknown",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "RIGHT",
+            "duration_seconds": 69.87,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776446349', the participant viewed the image 'image1.png' located in the 'RIGHT' screen quadrant. They spent 69.87 seconds looking at it. The target emotion to copy was 'unknown'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        },
+        {
+            "image": "image19.jpeg",
+            "target_emotion": "unknown",
+            "user_emotion": "happy",
+            "matched": false,
+            "gaze_region": "RIGHT",
+            "duration_seconds": 69.87,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776446349', the participant viewed the image 'image19.jpeg' located in the 'RIGHT' screen quadrant. They spent 69.87 seconds looking at it. The target emotion to copy was 'unknown'. The user's exhibited facial expression was 'happy', which did not match the target emotion."
+        },
+        {
+            "image": "image2.png",
+            "target_emotion": "unknown",
+            "user_emotion": "neutral",
+            "matched": false,
+            "gaze_region": "RIGHT",
+            "duration_seconds": 69.87,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776446349', the participant viewed the image 'image2.png' located in the 'RIGHT' screen quadrant. They spent 69.87 seconds looking at it. The target emotion to copy was 'unknown'. The user's exhibited facial expression was 'neutral', which did not match the target emotion."
+        },
+        {
+            "image": "image20.jpeg",
+            "target_emotion": "unknown",
+            "user_emotion": "happy",
+            "matched": false,
+            "gaze_region": "RIGHT",
+            "duration_seconds": 69.87,
+            "views": 1,
+            "rag_embedding_text": "During user session 'session_1776446349', the participant viewed the image 'image20.jpeg' located in the 'RIGHT' screen quadrant. They spent 69.87 seconds looking at it. The target emotion to copy was 'unknown'. The user's exhibited facial expression was 'happy', which did not match the target emotion."
+        }
+    ]
+}
